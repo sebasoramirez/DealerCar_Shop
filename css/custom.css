@@ -1,0 +1,246 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  background: rgb(13, 12, 17); /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    rgb(13, 12, 17) 0%,
+    rgb(116, 121, 125) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgb(13, 12, 17) 0%,
+    rgb(116, 121, 125) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgb(13, 12, 17) 0%,
+    rgb(116, 121, 125) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
+}
+
+.encabezado {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: rgb(219, 218, 218);
+  font-size: 5rem;
+}
+
+.logoCar {
+  width: 120px;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+header {
+  padding: 20px 0 0 0;
+  background: black;
+  text-align: center;
+}
+
+@media (min-width: 750px) {
+  header {
+    text-align: left;
+  }
+}
+.borrar-articulo {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+#logo {
+  width: 350px;
+}
+
+ul {
+  list-style: none;
+}
+#purch {
+  background-image: url(../img/4GSUPRZXXREO7A3YKFIT3W2RMM.jpg);
+  height: 350px;
+  background-size: cover;
+}
+#encabezado {
+  margin: 30px 0;
+}
+.submenu {
+  position: relative;
+}
+
+.submenu #carrito {
+  display: none;
+}
+.submenu:hover #carrito {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  z-index: 1;
+  background-color: white;
+  padding: 20px;
+  min-height: 400px;
+  min-width: 300px;
+}
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.contenido-purch {
+  margin-top: 80px;
+  color: rgb(219, 218, 218);
+  color: #adc2fd;
+}
+.contenido-purch form {
+  position: relative;
+  left: 580px;
+  top: 100px;
+  margin-bottom: 0;
+}
+.contenido-purch form #buscador {
+  height: 50px;
+  margin-bottom: 0;
+}
+.contenido-purch form .submit-buscador {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0;
+  display: block;
+  text-indent: -9999px;
+  width: 50px;
+  background-image: url(../img/lupa.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.barra {
+  padding: 20px 0;
+  background: rgb(116, 121, 125); /* Old browsers */
+  background: -moz-linear-gradient(
+    left,
+    black 0%,
+    rgb(116, 121, 125) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    left,
+    black 0%,
+    rgb(116, 121, 125) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    black 0%,
+    rgb(116, 121, 125) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#741d51', endColorstr='#e44e52',GradientType=1 ); /* IE6-9 */
+}
+
+.barra p {
+  margin: 0;
+  color: white;
+}
+.icono {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 20px;
+  background-size: 40px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.paddingCard2 {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.paddingCard {
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.landing {
+  text-decoration: none;
+  background-color: black;
+  border-radius: 8%;
+  border-style: ridge;
+  border-color: #3365f0;
+  padding: 10px;
+}
+@media (min-width: 750px) {
+  .icono {
+    margin-bottom: 0;
+  }
+}
+.icono1 {
+  background-image: url(../img/carrito.png);
+}
+.icono2 {
+  background-image: url(../img/icono3.png);
+}
+.icono3 {
+  background-image: url(../img/mechanic.png);
+}
+
+#lista-articulos .row {
+  margin-bottom: 20px;
+}
+.agregar-carrito {
+  margin: 10px 0;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  background: white;
+  border-color: #adc2fd;
+}
+@media (min-width: 550px) {
+  .card {
+    text-align: left;
+  }
+}
+.info-card {
+  padding: 10px 20px;
+}
+
+.info-card p,
+.card h4 {
+  margin-bottom: 5px;
+}
+.info-card .precio {
+  text-decoration: line-through;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.info-card .precio span {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.footer {
+  margin-top: 40px;
+  border-top: 1px solid #aaa;
+  padding-top: 40px;
+}
+.footer .menu a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
